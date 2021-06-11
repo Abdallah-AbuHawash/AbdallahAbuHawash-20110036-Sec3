@@ -1,3 +1,13 @@
+package encryptionalgorithm;
+//Libraries
+import java.util.Scanner;
+
+
+
+public class EncryptionAlgorithm {
+
+
+    public static void main(String[] args) {
         //Scanner
         Scanner sc = new Scanner (System.in); 
         System.out.print("Insert text: ");
@@ -19,3 +29,7 @@
         }
           System.out.println("Decrypted Value: ");
           System.out.println(text3);
+    }
+    
+}
+
